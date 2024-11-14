@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../multimedia/fondo.png");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+header nav{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid white;
+}
+
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+#hero h2{
+    color: yellow;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#hero h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#hero button{
+    padding: 10px  50px;
+    background: rgba(255, 0, 0, 0.726);
+    color: white;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 390px;
+    cursor: pointer;
+    
+}
+
+#hero button:hover{
+   background: transparent;
+   border: 2px solid red;
+   color: red;
+}
+
+main{
+
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 100%;
+    background: url(../multimedia/fondo\ 2.png);
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0% 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#planes p{
+    font-size: 22px;
+
+}
+
+#planes .fila{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+
+}
+
+#planes article{
+    position: relative;
+
+}
+
+#planes article img{
+    transition: .4s ;
+    width: 200px;
+    height: 300px;
+
+}
+
+#planes article img:hover{
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+
+#planes article h3{
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+
+#pelicula{
+    background: url(../multimedia/oppen.png);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0% 250px;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+#boton2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+#boton2 h2{
+    color: yellow;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#boton2 h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#boton2 button{
+    padding: 10px  50px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 390px;
+    cursor: pointer;
+    
+}
+
+#boton2 button:hover{
+   background: transparent;
+   border: 2px solid white;
+   color: white;
+}
+
+#generos{
+    width: 100%;
+    background: url(../multimedia/fondo\ 3.png);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background-size: cover;
+}
+
+#generos h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#generos .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#generos img:hover{
+    transition: width 2s ;
+}
+
+#generos article{
+    margin: 30px 120px;
+}
+
+#generos h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+#generos article img:hover{
+    transform: scale(1.1);
+    
+}
+
+#pelicula2{
+    background: url(../multimedia/docs.png);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0% 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#boton3{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+#boton3 h2{
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#boton3 h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#boton3 button{
+    padding: 10px  50px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 390px;
+    cursor: pointer;
+    
+}
+
+#boton3 button:hover{
+   background: transparent;
+   border: 2px solid black;
+   color: black;
+}
+
+#destinos{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 80px 0 30px;
+    background: black;
+    background-size: cover;
+}
+
+#destinos h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#destinos img:hover{
+    transition: width 2s ;
+}
+
+#destinos article{
+    margin: 10px 120px;
+}
+
+#destinos h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+#destinos article img:hover{
+    transform: scale(1.1);
+    
+}
+
+#contacto{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 22px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 40px auto;
+}
+
+form .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto input{
+    width: 42%;
+    padding: 10px 20;
+    margin: 10px 0;
+
+}
+
+#contacto select{
+    width: 42.4%;
+    padding: 10px 20;
+    margin: 10px 0;
+
+}
+
+#contacto button{
+    margin-top: 40px;
+    background: #919109;
+    color: white;
+    font-size: 22px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60PX 0;
+    background: black;
+    color: white;
+    text-align: center;
+
+}
